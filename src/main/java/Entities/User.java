@@ -95,19 +95,7 @@ public class User implements Serializable {
     private long timestamp;
 
 
-    // lista de categorias partilhadas
-    //@OneToMany(mappedBy="userSharedCat")
-    //private List<SharedCategoryEntity> sharedCategoriesList = new ArrayList<>();
 
-	/*
-	//lista de categorias partilhadas em q é owner
-	@OneToMany(mappedBy = "catOwnerUser")
-	private List<SharedCategoryEntity> listCatShared_Owner = new ArrayList<>();
-
-	//lista de categorias partilhadas em q não é owner
-	@OneToMany(mappedBy = "userSharedCat")
-	private List<SharedCategoryEntity> listCatShared_user = new ArrayList<>();
-	*/
 
 
     // CONSTRUTORES
