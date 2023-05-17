@@ -22,6 +22,8 @@ public class UserService {
         Response response = Response.status(401).entity("Não tem permissão").build();
 
         return response;
+
+
     }
 }
 
